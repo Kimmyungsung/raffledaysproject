@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./popip.css">
+
+  <script type="text/javascript"> 
+  window.onload =function () {
+   window.open("popup. html",  "popupNo1", "width=300, height=360");
+}
+  </script>
+</head>
+<body>
+  <div id="popupDiv" style="display:inline-block; position:absolute; top:100px; left:100px; z-index:999999;"> 
+    <div class="contents"> 
+      <img src="이미지 경로"> 
+    </div> 
+    <div class="footer-td" style="background:#000;height:20px;"> 
+      <a href="javascript:clkBtn()" style="position:absolute;right:5px;color:#fff;">[닫기]</a> 
+    </div> 
+  </div>
+</body>
+</html>
